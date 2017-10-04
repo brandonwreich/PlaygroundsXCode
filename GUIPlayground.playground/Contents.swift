@@ -48,6 +48,16 @@ secondLabel.isUserInteractionEnabled = false
 secondLabel.shadowColor = .blue
 secondLabel.textAlignment = .left
 
+var datePicker = UIDatePicker(frame: CGRect(x: 100, y: 100, width: 1000, height: 400))
+datePicker.datePickerMode = .dateAndTime
+datePicker.minuteInterval = 1
+func addtarget(_ target: Any?,
+               action: Selector,
+for controlEvents: UIControlEvents)
+{
+    
+}
+
 
 
 
