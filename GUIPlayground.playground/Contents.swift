@@ -24,7 +24,6 @@ let mySecondView = UIView(frame: rect)
 mySecondView.backgroundColor = .brown
 mySecondView.isHidden = true
 mySecondView.isMultipleTouchEnabled = false
-
 let myThirdView = UIView(frame: rect)
 myThirdView.backgroundColor = .yellow
 myThirdView.isHidden = false
@@ -48,14 +47,14 @@ secondLabel.isUserInteractionEnabled = false
 secondLabel.shadowColor = .blue
 secondLabel.textAlignment = .left
 
-var datePicker = UIDatePicker(frame: CGRect(x: 100, y: 100, width: 1000, height: 400))
-datePicker.datePickerMode = .dateAndTime
+var datePicker = UIDatePicker(frame: CGRect(x: 1400, y: 1400, width: 1000, height: 400))
+datePicker.datePickerMode = .countDownTimer
 datePicker.minuteInterval = 1
 func addtarget(_ target: Any?,
                action: Selector,
 for controlEvents: UIControlEvents)
 {
-    
+
 }
 
 
